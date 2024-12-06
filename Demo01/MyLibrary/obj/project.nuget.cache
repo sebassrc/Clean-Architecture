@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CRGFF0BM+0c=",
+  "dgSpecHash": "je8SMvM7FmU=",
   "success": true,
   "projectFilePath": "C:\\Proyectos\\MiAplicacion\\Demo01\\MyLibrary\\MyLibrary.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\defaultuser0\\.nuget\\packages\\figgle\\0.5.1\\figgle.0.5.1.nupkg.sha512"
+  ],
   "logs": []
 }
