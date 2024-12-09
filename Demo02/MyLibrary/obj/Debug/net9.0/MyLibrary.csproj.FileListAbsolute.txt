@@ -1,0 +1,12 @@
+C:\Proyectos\MiAplicacion\Demo02\MyLibrary\bin\Debug\net9.0\MyLibrary.deps.json
+C:\Proyectos\MiAplicacion\Demo02\MyLibrary\bin\Debug\net9.0\MyLibrary.dll
+C:\Proyectos\MiAplicacion\Demo02\MyLibrary\bin\Debug\net9.0\MyLibrary.pdb
+C:\Proyectos\MiAplicacion\Demo02\MyLibrary\obj\Debug\net9.0\MyLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\MiAplicacion\Demo02\MyLibrary\obj\Debug\net9.0\MyLibrary.AssemblyInfoInputs.cache
+C:\Proyectos\MiAplicacion\Demo02\MyLibrary\obj\Debug\net9.0\MyLibrary.AssemblyInfo.cs
+C:\Proyectos\MiAplicacion\Demo02\MyLibrary\obj\Debug\net9.0\MyLibrary.csproj.CoreCompileInputs.cache
+C:\Proyectos\MiAplicacion\Demo02\MyLibrary\obj\Debug\net9.0\MyLibrary.sourcelink.json
+C:\Proyectos\MiAplicacion\Demo02\MyLibrary\obj\Debug\net9.0\MyLibrary.dll
+C:\Proyectos\MiAplicacion\Demo02\MyLibrary\obj\Debug\net9.0\refint\MyLibrary.dll
+C:\Proyectos\MiAplicacion\Demo02\MyLibrary\obj\Debug\net9.0\MyLibrary.pdb
+C:\Proyectos\MiAplicacion\Demo02\MyLibrary\obj\Debug\net9.0\ref\MyLibrary.dll
