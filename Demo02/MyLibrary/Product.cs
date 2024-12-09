@@ -1,16 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MyLibrary
+﻿namespace MyLibrary
 {
-    internal class Product
+    public class Product
     {
-        public int Id;
-        public string Name;
-        public decimal UnitPrice;
-        public int UnitsInStock;
+        // Field, Campo, variable
+        private int Id_Field;
+
+        public int Id
+        {
+            get { return Id_Field; }
+            set { Id_Field = value; }
+        }
+
+        public string Name { get; set; }
+        public decimal UnitPrice { get; set; }
+        public int UnitsInStock { get; set; }
     }
 }
