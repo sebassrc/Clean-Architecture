@@ -1,18 +1,28 @@
-﻿namespace MyLibrary
+﻿using System.Xml.Linq;
+
+namespace MyLibrary
 {
-    public class Product
+    public class Product(int id, string name, decimal unitPrice, int unitsInStock)
     {
-        // Field, Campo, variable
-        private int Id_Field;
+        // Propiedades
+        public int Id => id;
+        public string Name => name;
+        public decimal UnitPrice => unitPrice;
+        public int UnitsInStock => unitsInStock;
 
-        public int Id
-        {
-            get { return Id_Field; }
-            set { Id_Field = value; }
-        }
+        public bool Discontinued { get; private set; }
 
-        public string Name { get; set; }
-        public decimal UnitPrice { get; set; }
-        public int UnitsInStock { get; set; }
+        public void SetDiscontinued() =>
+            Discontinued = true;
+
+        public bool GetStatus() =>
+            Discontinued;
     }
+
+    // public class Product2(int id, string name,
+    //     bool discontinued)
+    //     : Product(id, name, default, default)
+    // {
+    //     public bool Discontinued { get; set; } = discontinued;
+    // }
 }
