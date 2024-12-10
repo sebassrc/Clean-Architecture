@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {},
+    "net9.0/browser-wasm": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Microsoft.AspNetCore.Components.WebAssembly >= 9.0.0",
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 9.0.0",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.0",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\defaultuser0\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Proyectos\\MiAplicacion\\LabScript\\LabScript\\LabScript.csproj",
+      "projectName": "LabScript",
+      "projectPath": "C:\\Proyectos\\MiAplicacion\\LabScript\\LabScript\\LabScript.csproj",
+      "packagesPath": "C:\\Users\\defaultuser0\\.nuget\\packages\\",
+      "outputPath": "C:\\Proyectos\\MiAplicacion\\LabScript\\LabScript\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\defaultuser0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.0, )",
+            "autoReferenced": true
+          },
+          "Microsoft.NET.Sdk.WebAssembly.Pack": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.0, )",
+            "autoReferenced": true
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+            "version": "[9.0.0, 9.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "browser-wasm": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json.\r\n  Error al enviar la solicitud.\r\n  Se ha terminado la conexión: Error inesperado de recepción.\r\n  No se puede escribir datos de en la conexión de transporte: Se ha forzado la interrupción de una conexión existente por el host remoto.\r\n  Se ha forzado la interrupción de una conexión existente por el host remoto",
+      "libraryId": "Microsoft.NET.Sdk.WebAssembly.Pack"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "OcPb2pkxhXo=",
+  "success": false,
+  "projectFilePath": "C:\\Proyectos\\MiAplicacion\\LabScript\\LabScript\\LabScript.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json.\r\n  Error al enviar la solicitud.\r\n  Se ha terminado la conexión: Error inesperado de recepción.\r\n  No se puede escribir datos de en la conexión de transporte: Se ha forzado la interrupción de una conexión existente por el host remoto.\r\n  Se ha forzado la interrupción de una conexión existente por el host remoto",
+      "libraryId": "Microsoft.NET.Sdk.WebAssembly.Pack"
+    }
+  ]
+}
