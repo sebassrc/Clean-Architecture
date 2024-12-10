@@ -62,15 +62,17 @@ namespace WPFApp
             });
 
             Task T6 = new Task((message) =>
-            {
-                MessageBox.Show(message.ToString(), "Expresión lambda con parámetros.");
-            });
+            
+                MessageBox.Show(message.ToString()), "Expresión lambda con parámetros.");
+          
 
             Task T7 = new Task(() => AddMessage("Ejecutando la tarea."));
             T7.Start();
 
             AddMessage("En el hilo principal");
+        // TaskFactory
         }
+
 
         void ShowMessage()
         {
