@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Arquictectura\\NorthWind\\NorthWind.Entities\\NorthWind.Entities.csproj",
-      "projectName": "NorthWind.Entities",
-      "projectPath": "D:\\Projects\\Arquictectura\\NorthWind\\NorthWind.Entities\\NorthWind.Entities.csproj",
+      "projectUniqueName": "D:\\Projects\\Arquictectura\\NorthWind\\NorthWind.ConsoleApp\\NorthWind.ConsoleApp.csproj",
+      "projectName": "NorthWind.ConsoleApp",
+      "projectPath": "D:\\Projects\\Arquictectura\\NorthWind\\NorthWind.ConsoleApp\\NorthWind.ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Arquictectura\\NorthWind\\NorthWind.Entities\\obj\\",
+      "outputPath": "D:\\Projects\\Arquictectura\\NorthWind\\NorthWind.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
